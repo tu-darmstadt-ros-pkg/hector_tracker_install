@@ -1,0 +1,10 @@
+.catkin_workspace
+.catkin_tools
+.rosinstall
+.rosinstall.bak
+build
+build_isolated
+devel
+devel_isolated
+logs
+src
