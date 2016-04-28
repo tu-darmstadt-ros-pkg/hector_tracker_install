@@ -18,7 +18,7 @@
 
 
 # Gazebo
-- git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: realistic_2d_odom}
+- git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: argos}
 - git: {local-name: src/hector_tracker_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_gazebo.git'}
 - git: {local-name: src/hector_nist_arenas_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_nist_arenas_gazebo.git', version: catkin}
 # JVRC worlds from tud fork
