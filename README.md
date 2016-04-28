@@ -20,3 +20,18 @@ wstool update
 ```
 catkin build
 ```
+
+## Basic Testing
+
+Open new terminal, run a core:
+```
+roscore
+```
+Start a simulation scenario
+```
+roslaunch hector_nist_arena_worlds rc_2016_man5.launch
+```
+Spawn the robot:
+```
+roslaunch hector_tracker_sim_launch spawn_tracker_with_ground_truth.launch 
+```
