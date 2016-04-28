@@ -8,3 +8,15 @@ git clone https://github.com/tu-darmstadt-ros-pkg/hector_tracker_install.git
 cd hector_tracker_install
 ./update.sh
 ```
+
+## Updating and Building
+
+This install script installs dependencies, adds all repos to the workspace and builds the workspace contents. These steps can also be performed separately:
+* Workspace update:
+```
+wstool update
+```
+* Build:
+```
+catkin build
+```
