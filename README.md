@@ -2,6 +2,10 @@
 Basic install setup for hector tracker workspace
 
 ## Install
+Gazebo needs to be  installed. If unsure, run
+```
+sudo apt-get install ros-indigo-gazebo-ros-control ros-indigo-gazebo-plugins
+```
 Make sure you have no other catkin workspace sourced (i.e. `env | grep ROS` should not return anything).
 ```
 git clone https://github.com/tu-darmstadt-ros-pkg/hector_tracker_install.git
