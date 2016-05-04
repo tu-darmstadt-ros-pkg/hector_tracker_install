@@ -1,5 +1,5 @@
 #- git: {local-name: src/hector_centaur_demo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_centaur_demo.git', version: master}
-- git: {local-name: src/hector_vehicle_launch, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_vehicle_launch.git', version: refactor_launch_setup}
+- git: {local-name: src/hector_vehicle_launch, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_vehicle_launch.git', version: master}
 
 # Basic installs for using full robot
 #- git: {local-name: src/hector_centaur, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_centaur.git', version: reduced_dependencies}
