@@ -16,6 +16,8 @@
 - git: {local-name: src/hector_tracker_planning, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_planning.git'}
 - git: {local-name: src/hector_tracker_launch, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_launch.git'}
 
+- git: {local-name: src/hector_camera_control, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_camera_control.git'}
+
 
 # Gazebo
 - git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: realistic_2d_odom}
