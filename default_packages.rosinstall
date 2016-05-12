@@ -8,6 +8,7 @@
 - git: {local-name: src/hector_tracked_vehicles_common, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracked_vehicles_common.git', version: master}
 - git: {local-name: src/hector_models, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_models.git', version: indigo-devel}
 - git: {local-name: src/hector_vision, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_vision.git', version:  hector_rc16}
+- git: {local-name: src/hector_perception, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_perception.git', version:  master}
 - git: {local-name: src/thermaleye_msgs, uri: 'https://github.com/tu-darmstadt-ros-pkg/thermaleye_msgs.git', version: master}
 - git: {local-name: src/vigir_lidar_proc, uri: 'https://github.com/team-vigir/vigir_lidar_proc.git', version: master}
 
@@ -57,3 +58,7 @@
 
 # Optional
 # thermal self filter
+
+#Behavior
+- git: {local-name: src/flexbe_behavior_engine, uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git', version: master}
+- git: {local-name: src/hector_flexbe_behavior, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_flexbe_behavior.git', version: master}
