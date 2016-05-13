@@ -62,3 +62,10 @@
 #Behavior
 - git: {local-name: src/flexbe_behavior_engine, uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git', version: master}
 - git: {local-name: src/hector_flexbe_behavior, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_flexbe_behavior.git', version: master}
+
+
+# UI specific
+- git: {local-name: src/hector_teleop, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_teleop.git', version: master}
+
+# (Real robot) comms specific
+- git: {local-name: src/topic_proxy, uri: 'https://github.com/tu-darmstadt-ros-pkg/topic_proxy.git', version: master}
