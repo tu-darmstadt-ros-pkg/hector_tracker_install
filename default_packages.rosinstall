@@ -19,6 +19,8 @@
 
 - git: {local-name: src/hector_camera_control, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_camera_control.git'}
 
+- git: {local-name: src/hector_worldmodel, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_worldmodel.git', version: fix_attributes}
+
 
 # Gazebo
 - git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: argos}
