@@ -22,6 +22,7 @@ ros-$ROS_DISTRO-nav-core \
 ros-$ROS_DISTRO-base-local-planner \
 ros-$ROS_DISTRO-hector-marker-drawing \
 ros-$ROS_DISTRO-hector-slam \
+ros-$ROS_DISTRO-hector-geotiff \
 ros-$ROS_DISTRO-hector-nav-msgs \
 ros-$ROS_DISTRO-hector-map-tools \
 ros-$ROS_DISTRO-message-to-tf \
