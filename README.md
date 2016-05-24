@@ -13,6 +13,20 @@ cd hector_tracker_install
 ./update.sh
 ```
 
+### Optional Installs
+
+There are some components that can be installed optionally. These are detailed below
+
+
+#### icp_mapping
+
+To install ethzasl_icp_mapping, use the corresponding rosinstall file:
+```
+wstool merge icp_mapping.rosinstall
+```
+
+
+
 ## Updating and Building
 
 This install script installs dependencies, adds all repos to the workspace and builds the workspace contents. These steps can also be performed separately:
