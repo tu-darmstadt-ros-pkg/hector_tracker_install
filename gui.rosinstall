@@ -1,2 +1,3 @@
 - git: {local-name: src/hector_vehicle_ui, uri: 'https://hector.gkmm.informatik.tu-darmstadt.de/git/hector_vehicle_ui.git', version: master}
-- git: {local-name: src/vigir_interactive_marker_pose_server, uri: 'https://github.com/team-vigir/vigir_interactive_marker_pose_server.git', version: master}
+- git: {local-name: src/vigir_interactive_marker_pose_server, uri: 'https://github.com/team-vigir/vigir_interactive_marker_pose_server.git', version: argos}
+- git: {local-name: src/sar_msgs, uri: 'https://github.com/tu-darmstadt-ros-pkg/sar_msgs.git', version: master}
