@@ -25,7 +25,12 @@ To install ethzasl_icp_mapping, use the corresponding rosinstall file:
 wstool merge icp_mapping.rosinstall
 ```
 
+#### GUI
 
+To install GUI packages, use
+```
+wstool merge gui.rosinstall
+```
 
 ## Updating and Building
 
