@@ -1,0 +1,6 @@
+- git: {local-name: src/simox, uri: 'https://github.com/siggie0815/simox.git', version: 'argos'}
+- git: {local-name: src/hector_simox, uri: 'https://github.com/siggie0815/hector_simox.git', version: 'master'}
+- git: {local-name: src/hector_observation_planner, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_observation_planner.git', version: 'master'}
+- git: {local-name: src/grid_map, uri: 'https://github.com/tu-darmstadt-ros-pkg/grid_map.git', version: tud_argos}
+- git: {local-name: src/elevation_mapping, uri: 'https://github.com/tu-darmstadt-ros-pkg/elevation_mapping.git', version: argos_test}
+- git: {local-name: src/hector_image_proc, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_image_proc.git', version: master}
