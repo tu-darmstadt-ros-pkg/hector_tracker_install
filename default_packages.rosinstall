@@ -18,6 +18,8 @@
 - git: {local-name: src/hector_tracker_launch, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_launch.git'}
 
 - git: {local-name: src/hector_camera_control, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_camera_control.git'}
+- git: {local-name: src/hector_perception_msgs, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_perception_msgs.git'}
+
 
 - git: {local-name: src/hector_worldmodel, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_worldmodel.git', version: fix_attributes}
 
