@@ -24,6 +24,11 @@
 - git: {local-name: src/hector_worldmodel, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_worldmodel.git', version: fix_attributes}
 
 
+# Helper packages
+- git: {local-name: src/hector_image_proc, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_image_proc.git', version: master}
+
+
+
 # Gazebo
 - git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: argos}
 - git: {local-name: src/hector_tracker_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_gazebo.git'}
