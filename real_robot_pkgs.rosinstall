@@ -1,1 +1,1 @@
-- git: {local-name: src/realsense, uri: 'https://github.com/intel-ros/realsense.git', version: master}
+- git: {local-name: src/realsense, uri: 'https://github.com/intel-ros/realsense.git', version: indigo-devel}
