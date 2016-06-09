@@ -45,7 +45,7 @@
 
 
 # Base navigation
-- git: {local-name: src/hector_move_base_navigation, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_move_base_navigation.git', version:  hector_indigo_devel_catkin_merged}
+- git: {local-name: src/hector_move_base_navigation, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_move_base_navigation.git', version:  master}
 - git: {local-name: src/hector_navigation, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_navigation.git', version:  catkin}
 - git: {local-name: src/sbpl_lattice_planner, uri: 'https://github.com/meyerj/sbpl_lattice_planner.git', version: hydro-devel}
 
