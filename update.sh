@@ -7,6 +7,25 @@ git pull
 # This should be extended to first check if everything is installed and only do the sudo requiring call when there's anything missing.
 echo "Installing needed packages (both ROS package and system dependency .deb packages) ..."
 
+#---------------------
+# Below adds the PPA required for eth grid map
+# Approach taken from http://askubuntu.com/questions/381152/how-to-check-if-ppa-is-already-added-to-apt-sources-list-in-a-bash-script
+
+the_ppa=ethz-asl/common  # set appropriately
+
+if ! grep -q "$the_ppa" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+  echo ""
+  echo "---------------------------------------------------------------------"
+  echo " PPA ppa:ethz-asl/common not detected, adding to sources."
+  echo " Please press Enter (confirm) when asked if you want to add the PPA"
+  echo "---------------------------------------------------------------------"
+
+  # commands to add the ppa ...
+  sudo add-apt-repository ppa:ethz-asl/common
+  sudo apt-get update
+fi
+
+
 PACKAGES_TO_INSTALL="\
 mercurial \
 git \
@@ -55,7 +74,9 @@ ros-$ROS_DISTRO-move-base-msgs \
 ros-$ROS_DISTRO-hector-worldmodel-msgs \
 ros-$ROS_DISTRO-rqt-joint-trajectory-controller \
 ros-$ROS_DISTRO-rqt-robot-steering \
-ros-$ROS_DISTRO-robot-localization"
+ros-$ROS_DISTRO-robot-localization \
+schweizer-messer-common-dev \
+schweizer-messer-timing-dev"
 
 dpkg -s $PACKAGES_TO_INSTALL 2>/dev/null >/dev/null || sudo apt-get -y install $PACKAGES_TO_INSTALL
 
