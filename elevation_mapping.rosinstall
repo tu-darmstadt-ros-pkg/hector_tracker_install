@@ -1,0 +1,4 @@
+# ETH grid and elevation mapping
+- git: {local-name: src/elevation_mapping, uri: 'https://github.com/tu-darmstadt-ros-pkg/elevation_mapping.git', version: argos_test}
+- git: {local-name: src/grid_map, uri: 'https://github.com/tu-darmstadt-ros-pkg/grid_map.git', version: tud_argos}
+- git: {local-name: src/kindr, uri: 'https://github.com/ethz-asl/kindr.git', version: master}
