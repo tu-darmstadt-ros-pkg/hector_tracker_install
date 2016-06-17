@@ -2,6 +2,9 @@
 Basic install setup for hector tracker workspace
 
 ## Install
+A Ubuntu 14.04/AMD64/Indigo setup is supported for this installation. To install ROS, follow the instructions here:
+http://wiki.ros.org/indigo/Installation/Ubuntu
+
 Gazebo needs to be  installed. If unsure, run
 ```
 sudo apt-get install ros-indigo-gazebo-ros-control ros-indigo-gazebo-plugins
