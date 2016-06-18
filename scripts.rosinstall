@@ -1,0 +1,1 @@
+- git: {local-name: src/hector_scripts, uri: 'https://hector.gkmm.informatik.tu-darmstadt.de/git/hector_scripts.git', version: catkin_build_only}
