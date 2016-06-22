@@ -30,11 +30,11 @@
 
 
 # Gazebo
-- git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: argos}
-- git: {local-name: src/hector_tracker_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_gazebo.git'}
-- git: {local-name: src/hector_nist_arenas_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_nist_arenas_gazebo.git', version: catkin}
-- git: {local-name: src/roboticsgroup_gazebo_plugins, uri: 'https://github.com/tu-darmstadt-ros-pkg/roboticsgroup_gazebo_plugins.git', version: master}
-- git: {local-name: src/gazebo_ros_control_select_joints, uri: 'https://github.com/tu-darmstadt-ros-pkg/gazebo_ros_control_select_joints.git', version: master}
+#- git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: argos}
+#- git: {local-name: src/hector_tracker_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_gazebo.git'}
+#- git: {local-name: src/hector_nist_arenas_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_nist_arenas_gazebo.git', version: catkin}
+#- git: {local-name: src/roboticsgroup_gazebo_plugins, uri: 'https://github.com/tu-darmstadt-ros-pkg/roboticsgroup_gazebo_plugins.git', version: master}
+#- git: {local-name: src/gazebo_ros_control_select_joints, uri: 'https://github.com/tu-darmstadt-ros-pkg/gazebo_ros_control_select_joints.git', version: master}
 #- git: {local-name: src/taurob_tracker_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/taurob_tracker_gazebo.git', version: master}
 
 
