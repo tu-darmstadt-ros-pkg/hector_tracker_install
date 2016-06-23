@@ -75,6 +75,7 @@ ros-$ROS_DISTRO-hector-worldmodel-msgs \
 ros-$ROS_DISTRO-rqt-joint-trajectory-controller \
 ros-$ROS_DISTRO-rqt-robot-steering \
 ros-$ROS_DISTRO-robot-localization \
+ros-$ROS_DISTRO-serial \
 schweizer-messer-common-dev \
 schweizer-messer-timing-dev"
 
