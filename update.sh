@@ -65,6 +65,7 @@ ros-$ROS_DISTRO-sbpl \
 ros-$ROS_DISTRO-perception-pcl \
 ros-$ROS_DISTRO-pointcloud-to-laserscan \
 ros-$ROS_DISTRO-joy \
+ros-$ROS_DISTRO-um7 \
 ros-$ROS_DISTRO-teleop-twist-joy \
 ros-$ROS_DISTRO-costmap-2d \
 ros-$ROS_DISTRO-octomap \
