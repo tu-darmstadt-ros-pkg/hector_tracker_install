@@ -4,4 +4,4 @@
 - git: {local-name: src/hector_tracker_robot, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_robot.git', version: master}
 - git: {local-name: src/hector_diagnostics, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_diagnostics.git', version: master}
 - git: {local-name: src/um7, uri: 'https://github.com/tu-darmstadt-ros-pkg/um7.git', version: argo}
-- git: {local-name: src/hector_multisensor_head_driver, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_multisensor_head_driver.git', version: argo}
+- git: {local-name: src/hector_multisensor_head_driver, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_multisensor_head_driver.git', version: master}
