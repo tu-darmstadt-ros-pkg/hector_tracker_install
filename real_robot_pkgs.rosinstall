@@ -6,4 +6,5 @@
 - git: {local-name: src/um7, uri: 'https://github.com/tu-darmstadt-ros-pkg/um7.git', version: argo}
 - git: {local-name: src/hector_multisensor_head_driver, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_multisensor_head_driver.git', version: master}
 - git: {local-name: src/gscam, uri: 'https://github.com/tu-darmstadt-ros-pkg/gscam.git', version: gstreamer-1-0-support}
+- git: {local-name: src/hector_pseye_camera, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_pseye_camera.git', version: master}
 
