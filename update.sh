@@ -77,8 +77,10 @@ ros-$ROS_DISTRO-rqt-joint-trajectory-controller \
 ros-$ROS_DISTRO-rqt-robot-steering \
 ros-$ROS_DISTRO-robot-localization \
 ros-$ROS_DISTRO-serial \
+ros-$ROS_DISTRO-urg-node \
 ros-$ROS_DISTRO-dynamixel-driver \
 ros-$ROS_DISTRO-dynamixel-msgs \
+ros-$ROS_DISTRO-dynamixel-controllers \
 schweizer-messer-common-dev \
 schweizer-messer-timing-dev"
 
