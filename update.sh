@@ -33,6 +33,7 @@ python-rosdep \
 python-wstool \
 python-catkin-tools \
 libnlopt-dev \
+libcoin80-dev \
 ros-$ROS_DISTRO-desktop \
 ros-$ROS_DISTRO-moveit-ros \
 ros-$ROS_DISTRO-moveit-simple-controller-manager \
