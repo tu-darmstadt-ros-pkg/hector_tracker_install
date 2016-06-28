@@ -66,6 +66,7 @@ ros-$ROS_DISTRO-sbpl \
 ros-$ROS_DISTRO-perception-pcl \
 ros-$ROS_DISTRO-pointcloud-to-laserscan \
 ros-$ROS_DISTRO-joy \
+ros-$ROS_DISTRO-um7 \
 ros-$ROS_DISTRO-teleop-twist-joy \
 ros-$ROS_DISTRO-costmap-2d \
 ros-$ROS_DISTRO-octomap \
@@ -76,6 +77,11 @@ ros-$ROS_DISTRO-hector-worldmodel-msgs \
 ros-$ROS_DISTRO-rqt-joint-trajectory-controller \
 ros-$ROS_DISTRO-rqt-robot-steering \
 ros-$ROS_DISTRO-robot-localization \
+ros-$ROS_DISTRO-serial \
+ros-$ROS_DISTRO-urg-node \
+ros-$ROS_DISTRO-dynamixel-driver \
+ros-$ROS_DISTRO-dynamixel-msgs \
+ros-$ROS_DISTRO-dynamixel-controllers \
 schweizer-messer-common-dev \
 schweizer-messer-timing-dev"
 
