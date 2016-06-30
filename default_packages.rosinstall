@@ -44,7 +44,7 @@
 #- git: {local-name: src/jvrc_task_models, uri: 'https://github.com/tu-darmstadt-ros-pkg/JVRC_task_models.git', version: catkin }
 
 # Base control
-- git: {local-name: src/vehicle_controller, uri: 'https://github.com/tu-darmstadt-ros-pkg/vehicle_controller.git', version: master}
+- git: {local-name: src/vehicle_controller, uri: 'https://github.com/tu-darmstadt-ros-pkg/vehicle_controller.git', version: hector_rc16}
 - git: {local-name: src/hector_move_base_msgs, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_move_base_msgs.git', version: master}
 - git: {local-name: src/monstertruck_msgs, uri: 'https://github.com/tu-darmstadt-ros-pkg/monstertruck_msgs.git', version: master}
 
