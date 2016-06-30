@@ -99,6 +99,7 @@
 - git: {local-name: src/hector_observation_planner, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_observation_planner.git', version: 'master'}
 
 # Hazmat sign detection
+- git: {local-name: src/hector_tpofinder, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tpofinder.git', version: 'master'}
 - git: {local-name: src/hector_hazmat_detection, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_hazmat_detection.git', version: 'master'}
 - git: {local-name: src/hector_hazmat_detection_data, uri: 'https://hector.gkmm.informatik.tu-darmstadt.de/git/hector_hazmat_detection_data.git', version: 'master'}
 
