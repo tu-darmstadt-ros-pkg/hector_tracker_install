@@ -97,3 +97,9 @@
 - git: {local-name: src/simox, uri: 'https://github.com/siggie0815/simox.git', version: 'argos'}
 - git: {local-name: src/hector_simox, uri: 'https://github.com/siggie0815/hector_simox.git', version: 'master'}
 - git: {local-name: src/hector_observation_planner, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_observation_planner.git', version: 'master'}
+
+# Hazmat sign detection
+- git: {local-name: src/hector_hazmat_detection, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_hazmat_detection.git', version: 'master'}
+- git: {local-name: src/hector_hazmat_detection_data, uri: 'https://hector.gkmm.informatik.tu-darmstadt.de/git/hector_hazmat_detection_data.git', version: 'master'}
+
+ 
