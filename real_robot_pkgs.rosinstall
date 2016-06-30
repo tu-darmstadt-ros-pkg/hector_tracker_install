@@ -9,3 +9,4 @@
 - git: {local-name: src/hector_pseye_camera, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_pseye_camera.git', version: master}
 - git: {local-name: src/hector_dynamixel_ros_control_wrapper, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_dynamixel_ros_control_wrapper.git', version: master}
 - git: {local-name: src/hector_senseair_s8_driver, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_senseair_s8_driver.git', version: hector_tracker}
+- git: {local-name: src/hector_nano_driver, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_nano_driver.git', version: hector_tracker}
