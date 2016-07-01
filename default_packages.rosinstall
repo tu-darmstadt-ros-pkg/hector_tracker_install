@@ -77,7 +77,7 @@
 # thermal self filter
 
 #Behavior
-- git: {local-name: src/flexbe_behavior_engine, uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git', version: master}
+- git: {local-name: src/flexbe_behavior_engine, uri: 'https://github.com/team-vigir/flexbe_behavior_engine.git', version: fix/rc_2016}
 - git: {local-name: src/generic_flexbe_states, uri: 'https://github.com/FlexBE/generic_flexbe_states.git', version: master}
 - git: {local-name: src/hector_flexbe_behavior, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_flexbe_behavior.git', version: master}
 
