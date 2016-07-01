@@ -23,6 +23,7 @@
 
 - git: {local-name: src/hector_worldmodel, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_worldmodel.git', version: fix_attributes}
 
+- git: {local-name: src/hector_slam, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_slam.git', version: add_pointcloud_subscriber}
 
 # Helper packages
 - git: {local-name: src/hector_image_proc, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_image_proc.git', version: master}
