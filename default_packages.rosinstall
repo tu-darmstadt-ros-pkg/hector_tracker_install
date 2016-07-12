@@ -27,8 +27,7 @@
 
 # Helper packages
 - git: {local-name: src/hector_image_proc, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_image_proc.git', version: master}
-
-
+- git: {local-name: src/topic_field_tools, uri: 'https://github.com/tu-darmstadt-ros-pkg/topic_field_tools.git', version: master}
 
 # Gazebo
 #- git: {local-name: src/hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git', version: argos}
