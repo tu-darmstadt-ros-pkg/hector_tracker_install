@@ -1,0 +1,2 @@
+- git: {local-name: src/serval_ros_bridge, uri: 'https://github.com/LOEWE-NICER/serval_ros_bridge.git', version: master}
+#- git: {local-name: src/ice, uri: 'https://github.com/skohlbr/ice.git', version: master}
