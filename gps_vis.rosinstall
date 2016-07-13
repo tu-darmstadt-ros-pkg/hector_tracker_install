@@ -1,2 +1,1 @@
-
 - git: {local-name: src/rviz_satellite, uri: 'https://github.com/gareth-cross/rviz_satellite', version: master}
