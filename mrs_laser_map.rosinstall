@@ -1,0 +1,1 @@
+- git: {local-name: src/mrs_laser_map, uri: 'https://github.com/AIS-Bonn/mrs_laser_map.git', version: master}
