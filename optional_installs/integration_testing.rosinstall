@@ -1,0 +1,8 @@
+# Packages for integration-testing (in simulation) of hector_tracker
+# This rosinstall file has the following rosinstall-file dependencies:
+# - icp_mapping
+# - gui
+# - gazebo_sim
+- git: {local-name: src/exploration_evaluation, uri: 'https://github.com/tu-darmstadt-ros-pkg/exploration_evaluation.git', version: tracker_updates}
+- git: {local-name: src/task_msgs, uri: 'https://github.com/tu-darmstadt-ros-pkg/task_msgs.git', version: master}
+
