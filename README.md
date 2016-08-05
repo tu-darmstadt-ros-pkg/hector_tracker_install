@@ -24,7 +24,7 @@ There are some components that can be installed optionally. These are detailed b
 
 For installing all packages required for gazebo-based simulation run:
 ```
-wstool merge gazebo_sim_pkgs.rosinstall
+wstool merge optional_installs/gazebo_sim.rosinstall
 ```
 
 
@@ -32,14 +32,14 @@ wstool merge gazebo_sim_pkgs.rosinstall
 
 To install ethzasl_icp_mapping, use the corresponding rosinstall file:
 ```
-wstool merge icp_mapping.rosinstall
+wstool merge optional_installs/icp_mapping.rosinstall
 ```
 
 #### GUI
 
 To install GUI packages, use
 ```
-wstool merge gui.rosinstall
+wstool merge optional_installs/gui.rosinstall
 ```
 
 ## Updating and Building

@@ -5,3 +5,4 @@
 - git: {local-name: src/roboticsgroup_gazebo_plugins, uri: 'https://github.com/tu-darmstadt-ros-pkg/roboticsgroup_gazebo_plugins.git', version: master}
 - git: {local-name: src/gazebo_ros_control_select_joints, uri: 'https://github.com/tu-darmstadt-ros-pkg/gazebo_ros_control_select_joints.git', version: master}
 - git: {local-name: src/taurob_tracker_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/taurob_tracker_gazebo.git', version: master}
+- git: {local-name: src/gazebo_ros_pkgs, uri: 'https://github.com/ros-simulation/gazebo_ros_pkgs.git', version: indigo-devel}
