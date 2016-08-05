@@ -7,11 +7,11 @@ http://wiki.ros.org/indigo/Installation/Ubuntu
 
 Gazebo needs to be  installed if you want to run simulation. If unsure, run
 ```
-sudo apt-get install ros-indigo-gazebo-ros-control ros-indigo-gazebo-plugins
+sudo apt-get install ros-kinetic-gazebo-ros-control ros-kinetic-gazebo-plugins
 ```
 Make sure you have no other catkin workspace sourced (i.e. `env | grep ROS` should not return anything).
 ```
-git clone https://github.com/tu-darmstadt-ros-pkg/hector_tracker_install.git
+git clone -b kinetic-experimental https://github.com/tu-darmstadt-ros-pkg/hector_tracker_install.git
 cd hector_tracker_install
 ./update.sh
 ```
