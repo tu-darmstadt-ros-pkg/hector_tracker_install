@@ -1,4 +1,4 @@
-#- git: {local-name: src/realsense, uri: 'https://github.com/intel-ros/realsense.git', version: indigo-devel}
+- git: {local-name: src/realsense, uri: 'https://github.com/tu-darmstadt-ros-pkg/realsense', version: indigo-devel}
 - git: {local-name: src/taurob_tracker_drivers, uri: 'https://git.sim.informatik.tu-darmstadt.de/kohlbrecher/taurob_tracker_drivers.git', version: hector_tracker}
 - git: {local-name: src/argo_camera_drivers, uri: 'https://git.sim.informatik.tu-darmstadt.de/argonauts/argo_camera_drivers.git', version: minimal_thermal_setup}
 - git: {local-name: src/hector_tracker_robot, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tracker_robot.git', version: master}
