@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /opt/ros/indigo/setup.bash
+source /opt/ros/kinetic/setup.bash
 
 git pull
 
@@ -35,6 +35,7 @@ python-catkin-tools \
 libnlopt-dev \
 libcoin80-dev \
 libphonon-dev \
+libnlopt-dev \
 ros-$ROS_DISTRO-desktop \
 ros-$ROS_DISTRO-moveit-ros \
 ros-$ROS_DISTRO-moveit-simple-controller-manager \
@@ -83,6 +84,13 @@ ros-$ROS_DISTRO-urg-node \
 ros-$ROS_DISTRO-dynamixel-driver \
 ros-$ROS_DISTRO-dynamixel-msgs \
 ros-$ROS_DISTRO-dynamixel-controllers \
+ros-$ROS_DISTRO-move-base-msgs \
+ros-$ROS_DISTRO-costmap-2d \
+ros-$ROS_DISTRO-nav-core \
+ros-$ROS_DISTRO-octomap-msgs \
+ros-$ROS_DISTRO-octomap-ros \
+ros-$ROS_DISTRO-hector-worldmodel-msgs \
+ros-$ROS_DISTRO-base-local-planner \
 schweizer-messer-common-dev \
 schweizer-messer-timing-dev"
 
@@ -98,8 +106,8 @@ wstool merge default_packages.rosinstall
 wstool update
 
 # We build using catkin_tools per default
-#catkin_make_isolated -DCMAKE_BUILD_TYPE=Release
-catkin build -DCMAKE_BUILD_TYPE=Release
+catkin_make_isolated -DCMAKE_BUILD_TYPE=Release
+#catkin build -DCMAKE_BUILD_TYPE=Release
 
 
 PWD=$(pwd)
@@ -118,6 +126,10 @@ or by adding this command to your .bashrc file for automatic setup on
 each invocation of an interactive shell:
 
     echo "source ${PWD}/devel/setup.bash" >> ~/.bashrc
+
+or by adding an alias for this workspace. 
+
+    echo "alias hector_tracker='source ${PWD}/devel/setup.bash'" >> ~/.bashrc
 
 You can also modify your workspace config (e.g. for adding additional
 repositories or packages) using the wstool command.
