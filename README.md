@@ -24,7 +24,7 @@ There are some components that can be installed optionally. These are detailed b
 
 For installing all packages required for gazebo-based simulation run:
 ```
-wstool merge optional_installs/gazebo_sim_pkgs.rosinstall
+wstool merge optional_installs/gazebo_sim.rosinstall
 ```
 
 
