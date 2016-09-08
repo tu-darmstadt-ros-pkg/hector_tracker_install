@@ -1,1 +1,7 @@
 - git: {local-name: src/hector_calibration, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_calibration.git'}
+
+- git: {local-name: src/robot_calibration, uri: 'https://github.com/tu-darmstadt-ros-pkg/robot_calibration.git'}
+
+- git: {local-name: src/hector_chilitag_description, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_chilitag_description.git'}
+
+- git: {local-name: src/chilitags, uri: 'https://github.com/chili-epfl/chilitags.git'}
