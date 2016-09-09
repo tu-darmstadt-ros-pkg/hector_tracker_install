@@ -4,4 +4,6 @@
 
 - git: {local-name: src/hector_chilitag_description, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_chilitag_description.git'}
 
-- git: {local-name: src/chilitags, uri: 'https://github.com/tu-darmstadt-ros-pkg/chilitags.git'}
+- git: {local-name: src/chilitags_catkin, uri: 'https://github.com/nicolov/chilitags_catkin.git'}
+
+- git: {local-name: src/catkin_simple, uri: 'https://github.com/catkin/catkin_simple'}
