@@ -1,0 +1,1 @@
+- git: {local-name: src/motion_editor, uri: 'https://github.com/tu-darmstadt-ros-pkg/motion_editor.git', version: master}
