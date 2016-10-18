@@ -1,0 +1,1 @@
+- git: {local-name: src/hector_doorway_traversal, uri: 'git@git.teamhector.de:hector/hector_doorway_traversal.git', version: master}
