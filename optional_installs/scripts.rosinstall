@@ -1,1 +1,1 @@
-- git: {local-name: src/hector_scripts, uri: 'https://hector.gkmm.informatik.tu-darmstadt.de/git/hector_scripts.git', version: hector_tracker}
+- git: {local-name: src/hector_scripts, uri: 'https://git.teamhector.de/hector/hector_scripts.git', version: hector_tracker}
