@@ -101,6 +101,6 @@
 # Hazmat sign detection
 - git: {local-name: src/hector_tpofinder, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_tpofinder.git', version: 'master'}
 - git: {local-name: src/hector_hazmat_detection, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_hazmat_detection.git', version: 'master'}
-- git: {local-name: src/hector_hazmat_detection_data, uri: 'https://git.teamhector.de/hector/hector_hazmat_detection_data.git', version: 'master'}
+- git: {local-name: src/hector_hazmat_detection_data, uri: 'git@git.teamhector.de:hector/hector_hazmat_detection_data.git', version: 'master'}
 
  
